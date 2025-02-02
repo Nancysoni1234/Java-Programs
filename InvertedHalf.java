@@ -227,4 +227,71 @@
 //       System.out.println("\n");
 //     }
 //   }
-// }   
+// }
+//11.Solid Rhombus
+// public class Rhombus
+// {
+//   public static void main(String agrs[])
+//   {
+//     for(int i=1; i<=5; i++)
+//     {
+//       for(int j=4; j>=i; j--)
+//       {
+//         System.out.print("  ");
+//       }
+//       for(int k=1; k<=4; k++)
+//       {
+//         System.out.print("* ");
+//       }
+//       System.out.println("\n");
+//     }
+//   }
+
+// }
+
+//12.Number Pyramid
+// public class numPyramid
+//  {
+//    public static void main(String agrs[])
+//    {
+//     for(int i=1; i<=5; i++)
+//     {
+//       for(int j=5; j>i; j--)
+//       {
+//         System.out.print(" ");
+//       }
+//       for(int k=1; k<=i; k++)
+//       {
+//         System.out.print(i);
+//         // System.out.print(" ");
+//       }
+//       System.out.println("\n");
+//     }
+//    }
+//  }
+
+//13.Palindromic pyramid
+// public class palindromicPy
+//  {
+//    public static void main(String agrs[])
+//    {
+//     for(int i=1; i<=5; i++)
+//     {
+//       for(int j=5; j>i; j--)
+//       {
+//         System.out.print("  ");
+//       }
+//       for(int k=i; k!=0; k--)
+//       {
+//         System.out.print(k);
+//         System.out.print(" ");
+//       }
+//       for(int p=2; p<=i; p++)
+//       {
+//         System.out.print(p);
+//         System.out.print(" ");
+//       }
+//       System.out.println("\n");
+//     }
+//    }
+//  }
